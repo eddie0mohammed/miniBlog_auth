@@ -1,0 +1,62 @@
+
+.main{
+    width:100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.new{
+    align-self: flex-end;
+    margin-right: 5rem;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0.75rem 1.5rem;
+    background: black;
+    color: white;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.new:hover{
+    background: green;
+    color: white;
+    border-color: green;
+}
+
+.block{
+    width: 80%;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 1rem 0;
+    color: black;
+    text-decoration: none;
+}
+
+.title:hover{
+    color: green;
+}
+
+
+.desc{
+    margin: 2rem 0;
+    font-size:1.8rem;
+}
+
+.author{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
